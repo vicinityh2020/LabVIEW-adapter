@@ -21,10 +21,14 @@ Start version, it works with agent-service-full-0.6.0.jar, and it receives three
 # Functionality and API
 
 ## Read microgrid state
-
-    GET:/remote/objects/{oid}/properties/{pid}: read the property of remote object
+Endpoint:
+    GET /remote/objects/{oid}/properties/{pid}
 Returns last known value and time the value was received by EMS. “oid” is UUID of EMS and “pid” is a property identifier. User can read generated active power of PV and WT, the SoC of ESS, active power load of microgrid.
 
+## Subscribe to event channel
+Endpoint:
+    POST /objects/{oid}/events/{eid}
+    
 ## Functions
 
 Adapter will enable to pass incomming events from VICINITY into LAbVIEW software
