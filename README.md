@@ -22,7 +22,7 @@ Start version, it works with agent-service-full-0.6.0.jar, and it receives three
 
 ## Read microgrid state
 Endpoint:
-    GET /remote/objects/{oid}/properties/{pid}
+            GET /remote/objects/{oid}/properties/{pid}
 Returns last known value and time the value was received by EMS. “oid” is UUID of EMS and “pid” is a property identifier. User can read generated active power of PV and WT, the SoC of ESS, active power load of microgrid.
 
 ## Subscribe to event channel
