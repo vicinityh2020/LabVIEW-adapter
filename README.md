@@ -17,18 +17,14 @@ Adapter releases are as aau_adapter_x.y.z.py
 ## 1.0.0
 Start version, it works with agent-service-full-0.6.0.jar, and it receives three parking slots states and publishes charging price.
 
-
 # Functionality and API
 
 ## Read microgrid state
 ### Endpoint:
             GET /remote/objects/{oid}/properties/{pid}
-Returns last known value and time the value was received by EMS. “oid” is UUID of EMS and “pid” is a property identifier. User can read generated active power of PV and WT, the SoC of ESS, active power load of microgrid.
+Returns last known value and time received by EMS. “oid” is UUID of EMS and “pid” is a property identifier. User can read generated active power of PV and WT, the SoC of ESS, active power load of microgrid.
 
 ## Subscribe to event channel
-
-POST /objects/{oid}/events/{eid}
-    
-## Functions
-
-Adapter will enable to pass incomming events from VICINITY into LAbVIEW software
+### Endpoint:
+            POST /objects/{oid}/events/{eid}
+Returns last charing price value and time received by EMS. “oid” is UUID of EMS and “eid” is a event identifier. User can read the number of free parking slot and charing price automatically.
