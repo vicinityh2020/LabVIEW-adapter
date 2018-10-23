@@ -9,7 +9,9 @@ Microgrid is emulated on the scaled-down experimental platform in AAU. Wind turb
 
 # Configuration and deployment
 
-TBD .. Adapter is currently in design stage.
+inside the project folder.
+
+python adapter.py
 
 # Functionality and API
 
