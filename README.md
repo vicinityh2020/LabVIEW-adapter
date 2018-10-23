@@ -1,18 +1,11 @@
 
-This documentation describes the adapter for LabVIEW software used in AAU.
+This documentation describes the adapter for smart parking based energy management system (EMS) of Aalborg University (AAU).
 
 # Infrastructure overview
 
-LabVIEW is systems engineering software for applications that require test, measurement, and control with rapid access to hardware and data insights. 
-It offers a graphical programming approach that helps you visualize every aspect of the application, including hardware configuration, 
-measurement data, and debugging.
-
+Microgrid is emulated on the scaled-down experimental platform in AAU. Wind turbine (WT), PV, energy storage system (ESS) is simulated by three 3-phase inverters respectively, the load of electric vehicle (EV) charging is simulated by resistive loads, there are controlled by state of three parking sensors which are collected through Vicinity P2P Network automatically through adapter. EMS established in LabVIEW can monitor generated power, the state of charge (SoC) of ESS and the charging state for three parking slots in microgrid, and can calculate EVs charging prince according to SoC. End users can subscribe to EMS value added service to monitor parking slots state and EVs charging prince. 
 
 ![Image text](https://github.com/YajuanGuan/pics/blob/master/%E5%9B%BE%E7%89%871.png)
-
-In LabVIEW simulations, it was necessary to listen to the data and events from the other VICINITY client nodes. 
-Adapter serves as the interface between VICINITY and LabVIEW enabling to use all required interaction patterns.
-
 
 # Configuration and deployment
 
