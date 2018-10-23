@@ -9,9 +9,13 @@ Microgrid is emulated on the scaled-down experimental platform in AAU. Wind turb
 
 # Configuration and deployment
 
-inside the project folder.
+Adapter run on python 3.6
 
-python adapter.py
+# Adapter changelog by version
+Adapter releases are as aau_adapter_x.y.z.py
+
+# 0.1.0
+Start version, it works with 0.6.0 agent, and it receives three parking slots states and publishes charging price.
 
 # Functionality and API
 
