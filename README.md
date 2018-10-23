@@ -14,8 +14,9 @@ Adapter run on python 3.6
 # Adapter changelog by version
 Adapter releases are as aau_adapter_x.y.z.py
 
-# 1.0.0
+## 1.0.0
 Start version, it works with agent-service-full-0.6.0.jar, and it receives three parking slots states and publishes charging price.
+
 
 # Functionality and API
 
