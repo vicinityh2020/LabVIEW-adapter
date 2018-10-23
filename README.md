@@ -22,8 +22,8 @@ Start version, it works with agent-service-full-0.6.0.jar, and it receives three
 
 ## Endpoints
 
-* GET/PUT /objects/{oid}/properties/{pid}: read/set the property of remote object
-* PUT /events/{eid}: publish the event
+    GET/PUT /objects/{oid}/properties/{pid}: read/set the property of remote object
+    PUT /events/{eid}: publish the event
 
 ## Functions
 
