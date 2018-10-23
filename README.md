@@ -7,6 +7,8 @@ LabVIEW is systems engineering software for applications that require test, meas
 It offers a graphical programming approach that helps you visualize every aspect of the application, including hardware configuration, 
 measurement data, and debugging.
 
+![https://github.com/YajuanGuan/pics/blob/master/%E5%9B%BE%E7%89%871.png]
+
 In LabVIEW simulations, it was necessary to listen to the data and events from the other VICINITY client nodes. 
 Adapter serves as the interface between VICINITY and LabVIEW enabling to use all required interaction patterns.
 
